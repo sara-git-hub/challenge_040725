@@ -38,12 +38,12 @@ matrice2=np.array([[1,2,3],[10,5,6],[20,8,9]])
 matrice3=np.dot(matrice1,matrice2)
 print(matrice3)
 
-matrice1_transpose=matrice1.T
-print(matrice1_transpose)
+matrice3_transpose=matrice3.T
+print(matrice3_transpose)
 
-matrice1_inverse=np.linalg.inv(matrice1)
-print(matrice1_inverse)
-print(np.dot(matrice1,matrice1_inverse))
+matrice3_inverse=np.linalg.inv(matrice3)
+print(matrice3_inverse)
+print(np.dot(matrice3,matrice3_inverse))
 print("\n")
 
 
